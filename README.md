@@ -26,7 +26,7 @@ npm install --save morgan body-parser mongoose express-session
 # windows
 npm run win_development
 
-# linux (config file modify)
+# linux (package.json file modify win_development -> development)
 npm run development
 ```
 
@@ -37,6 +37,6 @@ npm run build
 # windows
 npm run win_start
 
-# linux (config file modify)
+# linux (package.json file modify win_start -> start)
 npm run start
 ```
