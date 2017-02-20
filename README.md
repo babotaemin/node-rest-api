@@ -1,4 +1,4 @@
-# Nodejs, Express, MongoDB REST API fundamentals
+# REST API fundamentals using Nodejs, Express, MongoDB
 
 
 ## 환경설정
@@ -40,3 +40,12 @@ npm run win_start
 # linux (package.json file modify win_start -> start)
 npm run start
 ```
+
+### API List
+| ROUTE                     | METHOD | DESCRIPTION               |
+|---------------------------|--------|---------------------------|
+| /api/users                | GET    | 모든 user 데이터 조회     |
+| /api/users/:userName       | GET    | userName 값으로 데이터 조회    |
+| /api/users                | POST   | user 데이터 생성          |
+| /api/users/:userName       | PUT    | user 데이터 수정          |
+| /api/users/:userName       | DELETE | user 데이터 제거          |
