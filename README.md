@@ -49,3 +49,4 @@ npm run start
 | /api/users                | POST   | user 데이터 생성          |
 | /api/users/:userName       | PUT    | user 데이터 수정          |
 | /api/users/:userName       | DELETE | user 데이터 제거          |
+|---------------------------|--------|---------------------------|
